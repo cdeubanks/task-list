@@ -1,0 +1,14 @@
+<header>
+    <h1>{{title}}</h1>
+
+    <!-- 
+        component attributes act as properties 
+        (btnClick) captures the emit from the button and executes the toggleAddTask() function
+
+        *ngIf="hasRoute('/')" show button on just home page
+    -->
+    <app-button *ngIf="hasRoute('/')" color="{{ showAddTask ? 'red':'green' }}" text="{{ showAddTask ? 'Close':'Add' }}"
+        (btnClick)="toggleAddTask()">
+    </app-button>
+
+</header>
