@@ -19,9 +19,9 @@
       "reminder": false
     },
     {
-      "text": "delete me",
-      "day": "whenever",
-      "reminder": false,
+      "text": "opa",
+      "day": "ahorita",
+      "reminder": true,
       "id": 4
     }
   ]
