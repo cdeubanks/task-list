@@ -15,11 +15,12 @@ const httpOptions = {
 })
 export class TaskService {
 
-  private apiUrl = 'http://localhost:5000/tasks';
+  // private apiUrl = 'http://localhost:5000/tasks';
+  private apiUrl = 'https://my-json-server.typicode.com/cdeubanks/task-list';
 
   constructor(private http: HttpClient) { }
 
-  addTask(task: Task): Observable<Task> { 
+  addTask(task: Task): Observable<Task> {
     return this.http.post<Task>(this.apiUrl, task, httpOptions); //need to pass in httpOptions when adding data because we need the headers
   }
 
