@@ -13,15 +13,9 @@
       "reminder": true
     },
     {
-      "id": 3,
-      "text": "Upload music stems",
-      "day": "June 23rd at 1: 00pm",
-      "reminder": false
-    },
-    {
-      "text": "opa",
-      "day": "ahorita",
-      "reminder": true,
+      "text": "asdfasdf",
+      "day": "now",
+      "reminder": false,
       "id": 4
     }
   ]
